@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AndroiKotlinExample</string>
+    <string name="title_activity_4_2">Activity_4_2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_5_3">Activity_5_3</string>
+    <string name="large_text">
+        "청첩장 - 초대합니다..\n\n"
+
+        저희 두사람이\n
+        가난한 연인으로 같이한 시간이\n
+        벌써 10년을 넘어섰습니다.\n
+
+        이젠 둘이 만나서 할 것도 없고...\n
+        그러다 보니 결혼을 결심했습니다.\n
+        (후회할 지도 모르지만...)\n
+
+        준비한 것이 소박하지만\n
+        참석해주시기 바랍니다.\n
+
+        XX년 X월 X일 X시 입니다.\n
+
+        버튼을 누르시면
+        결혼식 장소를 알 수 있습니다.\n
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_6_3">Activity_6_3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_7_2">Activity_7_2</string>
+</resources>
