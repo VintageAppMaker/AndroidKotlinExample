@@ -6,4 +6,5 @@
     android:layout_height="match_parent"
     tools:context="com.test.snake.androidkotlinexample.day5.Activity_1_1">
 
+
 </android.support.constraint.ConstraintLayout>

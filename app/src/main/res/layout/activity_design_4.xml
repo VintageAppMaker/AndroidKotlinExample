@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.snake.androidkotlinexample.day3_4.Activity_design_4">
+
+    <!--android:weightSum="0.3"은 각자 합쳐진 값-->
+    <LinearLayout
+        android:id="@+id/lnButton"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:weightSum="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:alpha="0.5"
+            android:text="1"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="2"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="3"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:text="Crazy Moring call"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lnButton"
+        android:background="@drawable/crazy" />
+
+</RelativeLayout>

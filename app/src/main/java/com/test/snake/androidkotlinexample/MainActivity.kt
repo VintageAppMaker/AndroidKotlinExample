@@ -4,16 +4,19 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.*
 import com.test.snake.androidkotlinexample.day10.Activity_6_1
 import com.test.snake.androidkotlinexample.day10.Activity_6_2
 import com.test.snake.androidkotlinexample.day10.Activity_6_3
 import com.test.snake.androidkotlinexample.day11.Activity_7_1
 import com.test.snake.androidkotlinexample.day11.Activity_7_2
+import com.test.snake.androidkotlinexample.day2.Activity_design_0
 import com.test.snake.androidkotlinexample.day2.Activity_design_1
 import com.test.snake.androidkotlinexample.day2.Activity_design_2
-import com.test.snake.androidkotlinexample.day3_4.Activity_coding_test_kotlin
-import com.test.snake.androidkotlinexample.day3_4.Activity_oneSource_kotlin
+import com.test.snake.androidkotlinexample.day2.Activity_design_3
+import com.test.snake.androidkotlinexample.day3_4.*
 import com.test.snake.androidkotlinexample.day5.*
 import com.test.snake.androidkotlinexample.day6.Activity_2_1
 import com.test.snake.androidkotlinexample.day6.Activity_2_2
@@ -34,8 +37,8 @@ class MainActivity : AppCompatActivity() {
 
     // 리스트별 설명
     var lst = arrayOf<String>(
-            "2일 [1]\n커스텀디자인버튼 예제",   "2일 [2]\n테마입히기",
-            "3,4일[1]:\n코틀린 코딩테스트", "3,4일[2]:\n" + "생존필수 코틀린 문법 및 소스(print문 출력)",
+            "2일 [0]\n디자인모드로 위젯배치", "2일 [1]\n커스텀디자인버튼 예제",   "2일 [2]\n테마입히기",   "2일 [3]\nFrameLayout과 투명도",
+            "3,4일[1]:\n코틀린 코딩테스트", "3,4일[2]:\n" + "생존필수 코틀린 문법 및 소스(print문 출력)", "3,4일[3]:\n" + "자주보는 디자인구성", "3,4일[4]:\n" + "Scroll", "3,4일[5]:\n" +"캘린더 디자인",
             "5일[1]:\nXML없이 화면 만들기", "5일[2]:\njava식 코딩", "5일[3]:\nButton",
             "5일[4]:\nTextView", "5일[5]:\nEditText",
             "6일[1]:\nActivity 속성", "6일[2]:\n덧셈뺄셈", "6일[3]:\nActivity의 생명주기(Logcat)",
@@ -49,8 +52,8 @@ class MainActivity : AppCompatActivity() {
 
     // 리스트에 맞는 Acitivity 배열
     var lstClass = arrayOf(
-            Activity_design_1::class.java, Activity_design_2::class.java,
-            Activity_coding_test_kotlin::class.java, Activity_oneSource_kotlin::class.java,
+            Activity_design_0::class.java, Activity_design_1::class.java, Activity_design_2::class.java,  Activity_design_3::class.java,
+            Activity_coding_test_kotlin::class.java, Activity_oneSource_kotlin::class.java, Activity_design_4::class.java, Activity_design_5::class.java, Activity_design_6::class.java,
             Activity_1_1::class.java, Activity_1_2::class.java,
             Activity_1_3::class.java, Activity_1_4::class.java, Activity_1_5::class.java,
             Activity_2_1::class.java, Activity_2_2::class.java, Activity_2_3::class.java,
@@ -63,6 +66,7 @@ class MainActivity : AppCompatActivity() {
     )
 
     var adapter:  ArrayAdapter<*>? = null
+    var animFadeOut: Animation? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -78,6 +82,8 @@ class MainActivity : AppCompatActivity() {
 
         listView.setOnItemClickListener{ parent, view, position, id ->
             startActivity( Intent (this@MainActivity, lstClass[position] ))
+            overridePendingTransition(R.anim.bounce, R.anim.bounce);
+
         }
     }
 

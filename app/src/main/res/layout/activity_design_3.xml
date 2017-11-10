@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.snake.androidkotlinexample.day2.Activity_design_3">
+
+    <!--투명 셀로판지를 계속 올려놓고 디자인하는 효과-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--첫번째 레이아웃은 배경에 이미지 넣고 투명도 0.4  -->
+        <RelativeLayout
+            android:alpha="0.6"
+            android:background="@drawable/rose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+        <!--두번째 레이아웃은 중앙에 Text하나, 버튼  놔두기  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#282528"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="121dp"
+                android:text="명상의 시간....\n 시간이 간다. \n 시간이 간다. \n 시간이 간다. \n 시간이 간다. \n 시간이 간다. \n "
+                android:id="@+id/textView4" />
+
+            <Button
+                android:alpha="0.7"
+                android:text="홈페이지 이동하기"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="20dp" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.snake.androidkotlinexample.day3_4.Activity_design_5">
+
+    <!--ScrollView의 차일드들은 반드시 1개여야 함. 그 안에 다른 차일드 위젯을 넣아야 함.-->
+    <HorizontalScrollView
+        android:background="#33FF00"
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:gravity="center"
+                android:background="#FFFF00"
+                android:text="1번째 차일드입니다. "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:src="@drawable/crazy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:background="#00FFFF"
+                android:text="2번째 차일드입니다. "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:src="@drawable/crazy"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:gravity="center"
+                android:background="@drawable/bear"
+                android:textSize="40sp"
+                android:textColor="#FFF0F0"
+                android:text="3번째 차일드입니다. "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

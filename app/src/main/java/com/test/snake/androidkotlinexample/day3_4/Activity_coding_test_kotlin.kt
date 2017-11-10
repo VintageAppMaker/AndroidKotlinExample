@@ -19,9 +19,11 @@ class Activity_coding_test_kotlin : MyActivity() {
 
     // 화면에 0부터 10까지 문자찍는 예제
     private fun firstTest() {
-        var nIndx = 10;
+        var nIndx  = 10;
         for(i in (0 ..nIndx)){
-            write(i)
+
+            var sName  = "번호는 "
+            write("번호는 $i 입니다." )
         }
     }
 

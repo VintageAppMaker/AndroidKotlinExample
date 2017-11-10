@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.test.snake.androidkotlinexample.day3_4.Activity_oneSource_kotlin">
 
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="43dp" />
+
 </android.support.constraint.ConstraintLayout>

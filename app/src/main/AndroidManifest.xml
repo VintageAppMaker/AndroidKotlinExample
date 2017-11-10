@@ -72,13 +72,16 @@
             android:name=".day10.Activity_6_3"
             android:label="@string/title_activity_6_3"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".day11.Activity_7_1">
-        </activity>
+        <activity android:name=".day11.Activity_7_1" />
         <activity
             android:name=".day11.Activity_7_2"
             android:label="@string/title_activity_7_2"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".day2.Activity_design_3" />
+        <activity android:name=".day3_4.Activity_design_4" />
+        <activity android:name=".day2.Activity_design_0" />
+        <activity android:name=".day3_4.Activity_design_5" />
+        <activity android:name=".day3_4.Activity_design_6"></activity>
     </application>
 
 </manifest>
