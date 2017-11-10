@@ -33,7 +33,7 @@
             <Button
                 android:alpha="0.7"
                 android:layout_weight="1"
-                android:text="Google"
+                android:text="Open Layer"
                 android:id="@+id/btnGoogle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
