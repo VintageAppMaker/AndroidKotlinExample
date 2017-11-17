@@ -40,7 +40,7 @@
         <activity
             android:name=".day2.Activity_design_2"
             android:theme="@style/MyTheme" />
-        <activity android:name=".day3_4.Activity_oneSource_kotlin" />
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name=".day3_4.Activity_oneSource_kotlin" />
         <activity android:name=".day3_4.Activity_coding_test_kotlin" />
         <activity
             android:name=".day8.Activity_4_2"

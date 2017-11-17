@@ -3,6 +3,7 @@ package com.test.snake.androidkotlinexample
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Html
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
@@ -77,7 +78,14 @@ class MainActivity : AppCompatActivity() {
 
     // ListView에 추가
     fun setListView() {
-        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, lst)
+
+        var count_list = mutableListOf<String>();
+
+        for(i in (0 .. lst.size -1 )){
+            count_list.add("-->No.${i}\n${lst[i]}")
+        }
+
+        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, count_list)
         listView.setAdapter(adapter)
 
         listView.setOnItemClickListener{ parent, view, position, id ->

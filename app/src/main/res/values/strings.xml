@@ -25,6 +25,13 @@
         결혼식 장소를 알 수 있습니다.\n
 
     </string>
+    <string name="function_example">
+        "<h1>Kotlin 핵심문법의 예제를 함수로 정리함!  </h1>\n참고사항: kotlin에서 print 문은  \n"
+        console에 출력됨. 즉,  \n
+        Android Studio의 하단에 있는  \n
+        Messages에 글자로 출력.  \n
+
+    </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_6_3">Activity_6_3</string>
 
