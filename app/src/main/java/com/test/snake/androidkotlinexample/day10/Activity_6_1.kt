@@ -42,7 +42,7 @@ class Activity_6_1 : AppCompatActivity() {
 
         btnGoogle.setOnClickListener {
             // 이동한다.
-            wbMain.loadUrl("http://www.google.com")
+            wbMain.loadUrl("https://openlayers.org/en/latest/examples/feature-move-animation.html")
         }
 
         btnMyHome.setOnClickListener(View.OnClickListener {
