@@ -18,7 +18,14 @@ class Activity_1_5 : AppCompatActivity() {
         editText.setOnFocusChangeListener() {
             v, hasFocus ->
             if (hasFocus) {
+                // editText의 값을 가져와서 sText에 넣는다.
+                var sText = editText.text
+
+                // editText에 값을 빈문자열로 저장
                 editText.setText("")
+
+                // editText의 값을 이전의 editText의 문자열로 저장
+                editText2.setText("포커스 얻기 전 editText의 값-> " +  sText)
             }
         }
 
@@ -28,7 +35,7 @@ class Activity_1_5 : AppCompatActivity() {
 
     // 미션 2:
     // super.onCreate(savedInstanceState) 다음라인에 setUpUI()라는 함수를 호출한다.
-    // 당연히 setUpUI()함수는 새롭게 코딩한다. - 18, 24 라인의 코드를 그대로가져다 사용한다.
+    // 당연히 setUpUI()함수는 새롭게 코딩한다. - 18, 30 라인의 코드를 그대로가져다 사용한다.
 
     // 힌트: setText()
     // 미션 3:

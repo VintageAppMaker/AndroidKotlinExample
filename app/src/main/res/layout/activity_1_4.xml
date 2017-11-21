@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="#333333"
     android:layout_height="match_parent" tools:context=".MainActivity">
 
-    <TextView android:text="단순테스트입니다" android:layout_width="fill_parent"
+    <TextView
+        android:text="TextView입니다. Click 해주세요.. "
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:background="#222222"
-        android:textColor="#FFFFFF"
+        android:textColor="#FF00FF"
         android:id="@+id/txtTitle"
-        android:layout_marginTop="86dp"
+        android:layout_marginTop="214dp"
         />
 </RelativeLayout>

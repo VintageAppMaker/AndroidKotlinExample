@@ -32,6 +32,14 @@
         Messages에 글자로 출력.  \n
 
     </string>
+
+    <string name="font_example">
+        "테스트입니다. \n"
+        위와 폰트가 다릅니다. \n
+        그러므로 화면에 보여지는 느낌이... \n
+        달라지겠지요?  \n
+
+    </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_6_3">Activity_6_3</string>
 

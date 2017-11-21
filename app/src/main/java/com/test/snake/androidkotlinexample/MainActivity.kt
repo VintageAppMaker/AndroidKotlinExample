@@ -22,6 +22,7 @@ import com.test.snake.androidkotlinexample.day5.*
 import com.test.snake.androidkotlinexample.day6.Activity_2_1
 import com.test.snake.androidkotlinexample.day6.Activity_2_2
 import com.test.snake.androidkotlinexample.day6.Activity_2_3
+import com.test.snake.androidkotlinexample.day6.Activity_design_7
 import com.test.snake.androidkotlinexample.day7.Activity_3_1
 import com.test.snake.androidkotlinexample.day7.Activity_3_2
 import com.test.snake.androidkotlinexample.day7.Activity_3_3
@@ -42,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             "3,4일[1]:\n코틀린 코딩테스트", "3,4일[2]:\n" + "생존필수 코틀린 문법 및 소스(print문 출력)", "3,4일[3]:\n" + "자주보는 디자인구성", "3,4일[4]:\n" + "Scroll", "3,4일[5]:\n" +"캘린더 디자인",
             "5일[1]:\nXML없이 화면 만들기", "5일[2]:\njava식 코딩", "5일[3]:\nButton",
             "5일[4]:\nTextView", "5일[5]:\nEditText",
-            "6일[1]:\nActivity 속성", "6일[2]:\n덧셈뺄셈", "6일[3]:\nActivity의 생명주기(Logcat)",
+            "6일[1]:\nActivity 속성", "6일[2]:\n덧셈뺄셈", "6일[3]:\nActivity의 생명주기(Logcat)","6일[4]:\nFont 적용하기",
             "7일[1]:\n다른 Activity 띄우기", "7일[2]:\nActivity에 값보내기", "7일[3]:\nIntent 몇줄로 괜찮은 기능만들기...",
             "7일[1]:\n계산기 UI",
             "8일[1]:\n평형계산기", "8일[2]:\nTabbed Activity 활용", "8일[3]:\n숫자맞추기 게임",
@@ -57,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             Activity_coding_test_kotlin::class.java, Activity_oneSource_kotlin::class.java, Activity_design_4::class.java, Activity_design_5::class.java, Activity_design_6::class.java,
             Activity_1_1::class.java, Activity_1_2::class.java,
             Activity_1_3::class.java, Activity_1_4::class.java, Activity_1_5::class.java,
-            Activity_2_1::class.java, Activity_2_2::class.java, Activity_2_3::class.java,
+            Activity_2_1::class.java, Activity_2_2::class.java, Activity_2_3::class.java, Activity_design_7::class.java,
             Activity_3_1::class.java, Activity_3_2::class.java, Activity_3_3::class.java,
             Activity_3_4::class.java,
             Activity_4_1::class.java, Activity_4_2::class.java, Activity_4_3::class.java,
