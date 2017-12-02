@@ -26,7 +26,7 @@ class Activity_2_2 : AppCompatActivity() {
             // toInt()
 
             // 덧셈을 해서 값을 가져온다.
-            var result = subNumber(first.toInt(), second.toInt())
+            var result = addNumber(first.toInt(), second.toInt())
 
             // 숫자를 문자열로 바꾸는 방법은?
             // toString()
