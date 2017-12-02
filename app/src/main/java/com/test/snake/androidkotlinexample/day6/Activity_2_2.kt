@@ -20,7 +20,7 @@ class Activity_2_2 : AppCompatActivity() {
         btnPlus.setOnClickListener{
             // 숫자값을 가져오기
             var first   = firstNumber.text.toString()
-            var second = firstNumber.text.toString()
+            var second  = secondNumber.text.toString()
 
             // 문자열을 숫자로 변형하는 방법은 ?
             // toInt()
