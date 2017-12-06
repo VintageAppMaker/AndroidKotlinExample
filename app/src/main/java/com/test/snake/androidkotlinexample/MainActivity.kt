@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             "7일[1]:\n다른 Activity 띄우기", "7일[2]:\nActivity에 값보내기", "7일[3]:\nIntent 몇줄로 괜찮은 기능만들기...",
             "7일[4]:\n계산기 UI",
             "8일[1]:\n평형계산기", "8일[2]:\nTabbed Activity 활용", "8일[3]:\n숫자맞추기 게임",
-            "9일[1]:\n서비스 실행(logcat)", "8일[2]:\nScrolling Activity 활용",
+            "9일[1]:\n서비스 실행(logcat)", "9일[2]:\nScrolling Activity 활용",
             "10일[1]:\nWebView 예제 1", "10일[2]:\nWebView 예제 2", "10일[3]:\nNavigation Drawer Activity 활용",
             "11일[1]:\n카드공유앱", "11일[2]:\n주사위 게임"
     )
