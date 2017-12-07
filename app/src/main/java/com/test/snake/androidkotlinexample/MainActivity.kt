@@ -11,6 +11,7 @@ import android.widget.*
 import com.test.snake.androidkotlinexample.day10.Activity_6_1
 import com.test.snake.androidkotlinexample.day10.Activity_6_2
 import com.test.snake.androidkotlinexample.day10.Activity_6_3
+import com.test.snake.androidkotlinexample.day10.Activity_6_4
 import com.test.snake.androidkotlinexample.day11.Activity_7_1
 import com.test.snake.androidkotlinexample.day11.Activity_7_2
 import com.test.snake.androidkotlinexample.day2.Activity_design_0
@@ -48,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             "7일[4]:\n계산기 UI",
             "8일[1]:\n평형계산기", "8일[2]:\nTabbed Activity 활용", "8일[3]:\n숫자맞추기 게임",
             "9일[1]:\n서비스 실행(logcat)", "9일[2]:\nScrolling Activity 활용",
-            "10일[1]:\nWebView 예제 1", "10일[2]:\nWebView 예제 2", "10일[3]:\nNavigation Drawer Activity 활용",
+            "10일[1]:\nWebView 예제 1", "10일[2]:\nWebView 예제 2", "10일[3]:\nNavigation Drawer Activity 활용", "10일[4]:\n홈페이지 소스 분석하기",
             "11일[1]:\n카드공유앱", "11일[2]:\n주사위 게임"
     )
 
@@ -63,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             Activity_3_4::class.java,
             Activity_4_1::class.java, Activity_4_2::class.java, Activity_4_3::class.java,
             Activity_5_1::class.java, Activity_5_3::class.java,
-            Activity_6_1::class.java, Activity_6_2::class.java, Activity_6_3::class.java,
+            Activity_6_1::class.java, Activity_6_2::class.java, Activity_6_3::class.java, Activity_6_4::class.java,
             Activity_7_1::class.java, Activity_7_2::class.java
     )
 

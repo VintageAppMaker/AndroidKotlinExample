@@ -26,7 +26,9 @@
         <activity android:name=".day5.Activity_1_3" />
         <activity android:name=".day5.Activity_1_4" />
         <activity android:name=".day5.Activity_1_5" />
-        <activity android:name=".day6.Activity_2_1" android:theme="@style/Base.Theme.AppCompat.Dialog"/>
+        <activity
+            android:name=".day6.Activity_2_1"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
         <activity android:name=".day6.Activity_2_2" />
         <activity android:name=".day6.Activity_2_3" />
         <activity android:name=".day7.Activity_3_1" />
@@ -84,7 +86,8 @@
         <activity android:name=".day2.Activity_design_0" />
         <activity android:name=".day3_4.Activity_design_5" />
         <activity android:name=".day3_4.Activity_design_6" />
-        <activity android:name=".day6.Activity_design_7"></activity>
+        <activity android:name=".day6.Activity_design_7" />
+        <activity android:name=".day10.Activity_6_4"></activity>
     </application>
 
 </manifest>
