@@ -45,3 +45,13 @@ class Activity_2_3 : AppCompatActivity() {
     }
 
 }
+
+// 미션 1: Activity에 TextView(txtDisplay)를 하나만들고 Log.d에 출력했던 내용을 그곳(txtDisplay)에
+// 보이게 한다. 이전 출력내용도 보여주어야 한다.
+// 힌트 1:
+//      문자열 변수를 만들고
+//      메시지를 추가할 떄마다 문자열변수 = 문자열변수 + 새로운메시지 + "\n"
+//      txtDisplay.text =  문자열변수 하면된다.
+
+// 미션 2: 문자열이 너무많다. 스크롤되게 하려면 어떻게 해야 하는가?
+
