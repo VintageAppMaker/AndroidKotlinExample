@@ -65,3 +65,9 @@ class Activity_2_2 : AppCompatActivity() {
         return 0;
     }
 }
+
+// 미션 1~3까지는 한 번에 완료한다.
+// 미션4: EditText에 5자리 숫자만 입력받기
+// (XML만 수정하면 됨. Googling 키워드 "Android EditText 숫자입력", "Android EditText 입력제한")
+// 미션5: EditText에 입력하기 전에 "숫자만 입력"이라고 보여주기 (XML의 hint 기능)
+// 미션6: * , / 버튼을 만들고 +, * 기능도 구현하기(!!!에러처리도 해야 함!!! )
