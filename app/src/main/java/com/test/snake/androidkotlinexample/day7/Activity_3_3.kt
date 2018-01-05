@@ -58,5 +58,12 @@ class Activity_3_3 : AppCompatActivity() {
     미션 1: 자신의 집주소로 지도를 이동시켜보기.
     미션 2: button의 이름을 btn1, btn2, btn3, btn4로 바꾸기.
     힌트: XML에서 똑같이 ID 값을 수정해야 에러가 안남.
+    미션 3: Activity를 디자인해서 나를 소개하는 앱을 만들어본다.
+           - 주소버튼을 누르면 "내 주소를 지도로 보여주기 "
+           - 홈페이지 버튼을 누르면  "내 홈페이지 주소로 이동"
+           - 연락하기 버튼을 누르면  "내게 이메일보내기"
+             검색법 Googling "Android email intent"
+
+
     */
 }
