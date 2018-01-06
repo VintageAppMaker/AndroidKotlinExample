@@ -26,6 +26,10 @@ class Activity_3_1 : AppCompatActivity() {
     버튼의 setOnClickListener 함수를 사용하여
     16, 20줄 내용을 코딩한다.
 
+    미션 2: 버튼을 2개 만든다.
+            red라는 버튼을 누르면 붉은색 배경의 activity가 생성되고
+            blue라는 버튼을 누르면 푸른색 배경의 activity가 생성되게 한다.
+
     */
 
 }

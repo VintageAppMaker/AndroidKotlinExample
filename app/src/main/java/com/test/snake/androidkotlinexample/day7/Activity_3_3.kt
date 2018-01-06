@@ -64,6 +64,8 @@ class Activity_3_3 : AppCompatActivity() {
            - 연락하기 버튼을 누르면  "내게 이메일보내기"
              검색법 Googling "Android email intent"
 
+    미션 4: 디자인상 title바가 보기않좋다.
+            6일차 배운 내용으로 titlebar를 안보이게 한다.
 
     */
 }
