@@ -29,5 +29,6 @@ class Activity_3_2 : AppCompatActivity() {
      *        - 확인버튼을 누르면, 입력받은 값을 보여주는 새로운 Activity를 띄운다.
      *          새로운 Activity에서는 "ID는 XXX Password는 XXX 입니다"를 출력하되
      *          바로 전에 입력된 값을 출력하게 한다.
+     *          참고: https://gist.github.com/adsloader/243c5b5b13c580e7f4291dccbfa80da7
     * */
 }
