@@ -13,6 +13,7 @@ fun main(args : Array<String>){
     // add 메소드로 추가
     수정가능리스트.add("나는야");
     수정가능리스트.add("이박사");
+    //수정가능리스트.remove("")
 
     for(s in 수정가능리스트){
         println(s)
