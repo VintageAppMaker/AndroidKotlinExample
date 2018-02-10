@@ -6,6 +6,9 @@
     <!-- 이 퍼미션없으면 파일이 생성안됨 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -87,7 +90,9 @@
         <activity android:name=".day3_4.Activity_design_5" />
         <activity android:name=".day3_4.Activity_design_6" />
         <activity android:name=".day6.Activity_design_7" />
-        <activity android:name=".day10.Activity_6_4"></activity>
+        <activity android:name=".day10.Activity_6_4" />
+        <activity android:name=".extendexample.Activity_extend" />
+        <activity android:name=".extendexample.Activity_extend2"></activity>
     </application>
 
 </manifest>

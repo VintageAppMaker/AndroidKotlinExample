@@ -45,6 +45,7 @@ class MainService : Service() {
 
             }
         }
+
         handler!!.sendEmptyMessage(0)
     }
     /*

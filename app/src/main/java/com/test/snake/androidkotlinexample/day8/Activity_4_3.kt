@@ -48,6 +48,8 @@ class Activity_4_3 : AppCompatActivity() {
         10회가 넘으면 종료
 
     미션 3: 10번동안 입력된 기록을 TextView에 보여준다.(문자열 붙이기)
+    미션 4: 10번동안 입력된 기록을 TextView에 보여준다.(문자열 붙이기)
+
 */
 
 }

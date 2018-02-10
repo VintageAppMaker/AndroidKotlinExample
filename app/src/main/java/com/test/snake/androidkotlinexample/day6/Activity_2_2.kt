@@ -2,6 +2,7 @@ package com.test.snake.androidkotlinexample.day6
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.test.snake.androidkotlinexample.R
 import kotlinx.android.synthetic.main.activity_2_2.*
 
@@ -18,9 +19,21 @@ class Activity_2_2 : AppCompatActivity() {
 
         // + 버튼을 눌렀을 때
         btnPlus.setOnClickListener{
+
+            // 입력받은 값이 null인지 채크
+            if (firstNumber.text == null || secondNumber.text == null) {
+                return@setOnClickListener
+            }
+
+            // 입력받은 값이 ""인지 채크
+            if (firstNumber.text.length == 0 || secondNumber.text.length == 0) {
+                return@setOnClickListener
+            }
+
             // 숫자값을 가져오기
             var first   = firstNumber.text.toString()
             var second  = secondNumber.text.toString()
+
 
             // 문자열을 숫자로 변형하는 방법은 ?
             // toInt()

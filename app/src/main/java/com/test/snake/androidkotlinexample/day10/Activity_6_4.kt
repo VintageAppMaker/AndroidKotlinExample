@@ -61,7 +61,7 @@ class Activity_6_4 : AppCompatActivity() {
 
         if (null != document) {
             // href tag를 가진 a tag를 가져온다.
-            val elements = document!!.select("a[href]")
+            val elements = document.select("a[href]")
 
             // 존재하는 갯수만큼 ....
             for (i in 0 until elements.size) {

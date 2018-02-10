@@ -33,6 +33,8 @@ import com.test.snake.androidkotlinexample.day8.Activity_4_2
 import com.test.snake.androidkotlinexample.day8.Activity_4_3
 import com.test.snake.androidkotlinexample.day9.Activity_5_1
 import com.test.snake.androidkotlinexample.day9.Activity_5_3
+import com.test.snake.androidkotlinexample.extendexample.Activity_extend
+import com.test.snake.androidkotlinexample.extendexample.Activity_extend2
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.ArrayList
 
@@ -50,8 +52,9 @@ class MainActivity : AppCompatActivity() {
             "8일[1]:\n평형계산기", "8일[2]:\nTabbed Activity 활용", "8일[3]:\n숫자맞추기 게임",
             "9일[1]:\n서비스 실행(logcat)", "9일[2]:\nScrolling Activity 활용",
             "10일[1]:\nWebView 예제 1", "10일[2]:\nWebView 예제 2", "10일[3]:\nNavigation Drawer Activity 활용", "10일[4]:\n홈페이지 소스 분석하기",
-            "11일[1]:\n카드공유앱", "11일[2]:\n주사위 게임"
-    )
+            "11일[1]:\n카드공유앱", "11일[2]:\n주사위 게임",
+            "extra[1]:\nHTTP로 날씨", "extra[2]:\n사운드 레코딩과 play"
+            )
 
     // 리스트에 맞는 Acitivity 배열
     var lstClass = arrayOf(
@@ -65,7 +68,8 @@ class MainActivity : AppCompatActivity() {
             Activity_4_1::class.java, Activity_4_2::class.java, Activity_4_3::class.java,
             Activity_5_1::class.java, Activity_5_3::class.java,
             Activity_6_1::class.java, Activity_6_2::class.java, Activity_6_3::class.java, Activity_6_4::class.java,
-            Activity_7_1::class.java, Activity_7_2::class.java
+            Activity_7_1::class.java, Activity_7_2::class.java,
+            Activity_extend::class.java, Activity_extend2::class.java
     )
 
     var adapter:  ArrayAdapter<*>? = null

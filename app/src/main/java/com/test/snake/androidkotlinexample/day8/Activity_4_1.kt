@@ -42,6 +42,7 @@ class Activity_4_1 : AppCompatActivity() {
         val nResult = per * nNumber
         ShowMessage(String.format("%,d 제곱미터", Math.round(nResult)))
         txtNumber.setText("")
+
     }
 
     fun OnPress(v: View) {

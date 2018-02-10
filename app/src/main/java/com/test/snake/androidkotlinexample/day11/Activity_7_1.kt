@@ -25,7 +25,7 @@ class Activity_7_1 : AppCompatActivity() {
 
         // 퍼미션을 사용자가 눈으로 손으로 확인하게 하는 함수
         // 구글정책임. 구글이 정책으로 만들면 개발자는 무조건해야 함.
-        //grantExternalStoragePermission()
+        grantExternalStoragePermission()
 
         // 버튼을 가져오고. click 핸들러를 구현한다.
         btnShare.setOnClickListener{

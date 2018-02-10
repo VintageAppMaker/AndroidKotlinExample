@@ -17,6 +17,7 @@
             android:background="@drawable/crazy"
             android:layout_height="match_parent">
 
+
         </LinearLayout>
 
         <TextView
